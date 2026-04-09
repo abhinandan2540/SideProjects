@@ -1,3 +1,4 @@
+
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -6,7 +7,7 @@ from mpl_toolkits.mplot3d import Axes3D
 # loss functions
 # it is subject to change and can be of any mathematical equations
 def loss(x, y):
-    return x**2 + y**2
+    return x**2 + 10*y**2
 
 
 # taking gradients (derivatives)
@@ -58,4 +59,3 @@ ax.set_ylabel("Y")
 ax.set_zlabel("Loss")
 
 plt.show()
-
